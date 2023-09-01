@@ -1,8 +1,6 @@
 /*
   Program: Factorial Calculator
-  Description: This C++ program calculates the factorial of a non-negative
-  integer entered by the user. The factorial of a number N is the product of all
-  positive integers from 1 to N.
+  Description: This C++ program calculates the factorial of a non-negative integer entered by the user. The factorial of a number N is the product of all positive integers from 1 to N.
   Author: Muhammad Ismail
   Website: ismailfaridi.com
   Date: 01-Sep-2023
