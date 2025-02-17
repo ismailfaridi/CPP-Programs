@@ -1,0 +1,28 @@
+#inculde <fstream>
+
+READING:
+* ifstream
+- tellg(): Returns the current position of the get (read) pointer.
+  file.tellg();
+- seekg(): Moves the get (read) pointer to a specific position.
+  file.seekg(10L, ios::beg); // 10 bytes forward
+  file.seekg(position);
+  file.seekg(offset, direction);
+
+WRITING:
+* ofstream
+- tellp(): Returns the current position of the put (write) pointer.
+  file.tellp();
+- seekp(): Moves the put (write) pointer to a specific position. (ios::beg, end, cur)
+  file.seekp(position);
+  file.seekp(offset, direction);
+
+Opening the file:
+ifstream file("file.ext", mode)
+ofstream file("file.ext", mode)
+
+    MODES: in, out, app, trunc,ate, binary, nocreate, noreplace
+
+
+Closing the file:
+file.close();
